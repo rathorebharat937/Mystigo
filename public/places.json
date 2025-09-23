@@ -1,0 +1,9 @@
+[
+  {"id":"taj","name":"Taj Mahal","city":"Agra","state":"Uttar Pradesh","lat":27.1751,"lon":78.0421,"history":"Built by Shah Jahan for Mumtaz Mahal in the 17th century.","significance":"UNESCO World Heritage Site; symbol of love.","nearby":["Agra Fort","Mehtab Bagh","Itmad-ud-Daula"],"image":"/placeholder.svg"},
+  {"id":"gateway","name":"Gateway of India","city":"Mumbai","state":"Maharashtra","lat":18.922,"lon":72.8347,"history":"Erected to commemorate the landing of King George V in 1911.","significance":"Iconic monument overlooking the Arabian Sea.","nearby":["Colaba Causeway","Elephanta Caves","Marine Drive"],"image":"/placeholder.svg"},
+  {"id":"indiagate","name":"India Gate","city":"New Delhi","state":"Delhi","lat":28.6129,"lon":77.2295,"history":"War memorial dedicated to soldiers of the British Indian Army.","significance":"Popular public space and national landmark.","nearby":["Rashtrapati Bhavan","National Museum","Connaught Place"],"image":"/placeholder.svg"},
+  {"id":"hawamahal","name":"Hawa Mahal","city":"Jaipur","state":"Rajasthan","lat":26.9239,"lon":75.8267,"history":"Built in 1799 with 953 jharokhas for royal women.","significance":"Rajput architecture; Palace of Winds.","nearby":["City Palace","Jantar Mantar","Albert Hall Museum"],"image":"/placeholder.svg"},
+  {"id":"charminar","name":"Charminar","city":"Hyderabad","state":"Telangana","lat":17.3616,"lon":78.4747,"history":"Built in 1591 by Muhammad Quli Qutb Shah.","significance":"Symbol of Hyderabad and Indo-Islamic architecture.","nearby":["Laad Bazaar","Mecca Masjid","Chowmahalla Palace"],"image":"/placeholder.svg"},
+  {"id":"victoria","name":"Victoria Memorial","city":"Kolkata","state":"West Bengal","lat":22.5448,"lon":88.3426,"history":"Dedicated to Queen Victoria; built between 1906 and 1921.","significance":"Museum and gardens with colonial architecture.","nearby":["Maidan","St. Paul's Cathedral","Eden Gardens"],"image":"/placeholder.svg"}
+]
+
