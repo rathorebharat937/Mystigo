@@ -14,8 +14,8 @@ type RewardItem = {
 };
 
 const REWARDS: RewardItem[] = [
-  { id: 'r1', title: 'Free Entry Ticket', description: 'One-time entry pass to a partnered museum.', price: 500, image: '' },
-  { id: 'r2', title: 'Food Coupon', description: '₹200 coupon at select local eateries.', price: 400, image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop&crop=center' },
+  { id: 'r1', title: 'Free Entry Ticket', description: 'One-time entry pass to a partnered museum.', price: 500, image: '/public/images/free-entry-ticket.jpg' },
+  { id: 'r2', title: 'Food Coupon', description: '₹200 coupon at select local eateries.', price: 400, image: 'public/images/food-coupon.jpg' },
   { id: 'r3', title: 'Travel Kit', description: 'Compact kit: cap, sanitizer, mini-first aid.', price: 800, image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop&crop=center' },
   { id: 'r4', title: 'Souvenir T‑Shirt', description: 'Comfort cotton tee with heritage print.', price: 700, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=300&fit=crop&crop=center' },
   { id: 'r5', title: 'Digital Pass', description: 'AR filters & premium stories for 30 days.', price: 350, image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop&crop=center' },

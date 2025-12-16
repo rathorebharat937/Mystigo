@@ -14,8 +14,8 @@ type Log = {
 
 const LOGS: Log[] = [
   { id: 'l1', place: 'Taj Mahal', city: 'Agra, UP', date: '2025-09-18', coinsEarned: 120, image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?w=400&h=300&fit=crop&crop=center' },
-  { id: 'l2', place: 'Red Fort', city: 'Delhi', date: '2025-09-19', coinsEarned: 90, image: '' },
-  { id: 'l3', place: 'Hawa Mahal', city: 'Jaipur, RJ', date: '2025-09-21', coinsEarned: 110, image: 'https://images.unsplash.com/photo-1599661046827-dacde7b2d3c8?w=400&h=300&fit=crop&crop=center' },
+  { id: 'l2', place: 'Red Fort', city: 'Delhi', date: '2025-09-19', coinsEarned: 90, image: '/public/images/red-fort.jpg' },
+  { id: 'l3', place: 'Hawa Mahal', city: 'Jaipur, RJ', date: '2025-09-21', coinsEarned: 110, image: '/public/images/hawa-mahal.jpg' },
 ];
 
 const TravelLogs = () => {

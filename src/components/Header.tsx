@@ -23,7 +23,7 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          <NavLink to="/explore" className={({ isActive }) => `flex items-center space-x-2 px-3 py-2 rounded-md ${isActive || location.pathname === '/' ? 'bg-accent text-accent-foreground' : 'hover:bg-accent/50'}`} aria-current={(location.pathname === '/' || location.pathname.startsWith('/explore')) ? 'page' : undefined}>
+          <NavLink to="/explore" className={({ isActive }) => `flex items-center space-x-2 px-3 py-2 rounded-md ${isActive ? 'bg-accent text-accent-foreground' : 'hover:bg-accent/50'}`} aria-current={location.pathname.startsWith('/explore') ? 'page' : undefined}>
             <MapPin className="h-4 w-4" />
             <span>Explore</span>
           </NavLink>
@@ -83,7 +83,7 @@ const Header = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden border-t bg-background">
           <div className="container py-4 space-y-2">
-            <Button variant="ghost" className={`w-full justify-start ${location.pathname === '/' || location.pathname.startsWith('/explore') ? 'bg-accent' : ''}`} onClick={() => { navigate('/explore'); setIsMobileMenuOpen(false); }} aria-current={(location.pathname === '/' || location.pathname.startsWith('/explore')) ? 'page' : undefined}>
+            <Button variant="ghost" className={`w-full justify-start ${location.pathname.startsWith('/explore') ? 'bg-accent' : ''}`} onClick={() => { navigate('/explore'); setIsMobileMenuOpen(false); }} aria-current={location.pathname.startsWith('/explore') ? 'page' : undefined}>
               <MapPin className="h-4 w-4 mr-2" />
               Explore
             </Button>

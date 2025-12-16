@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import Header from '@/components/Header';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -75,6 +75,7 @@ const getPopularFor = (city?: string): string[] => {
 };
 
 const StartExplore = () => {
+  const navigate = useNavigate();
   const [coords, setCoords] = useState<{ lat: number; lon: number } | null>(null);
   const [error, setError] = useState<string>('');
   const [selected, setSelected] = useState<Place | null>(null);
@@ -155,7 +156,7 @@ const StartExplore = () => {
                           ))}
                         </div>
                       )}
-                      <Button onClick={() => setSelected(place)} className="w-full">View Story</Button>
+                      <Button onClick={() => navigate(`/explore/${place.id}`)} className="w-full">View Story</Button>
                     </CardContent>
                   </Card>
                 );
